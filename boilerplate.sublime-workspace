@@ -1,0 +1,214 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"raff",
+				"raffleword"
+			],
+			[
+				"con",
+				"condition"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 196.0,
+		"selected_items":
+		[
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Alfred/Documents/GitHub/link-shortener/config.js",
+		"/C/Users/Alfred/Documents/GitHub/link-shortener/config.sample.js",
+		"/C/Users/Alfred/Documents/GitHub/link-shortener/.gitignore",
+		"/C/Users/Alfred/Documents/GitHub/link-shortener/sftp-config.json",
+		"/C/Users/Alfred/AppData/Local/Temp/Rar$DRa0.819/kagbeta-linux32-dedicated/server_setup_info.txt",
+		"/C/Users/Alfred/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/C/Users/Alfred/Documents/GitHub/cp-mongo-migration/site/app/Config/core.php",
+		"/C/Users/Alfred/Documents/GitHub/cp-mongo-migration/site/migration.php",
+		"/C/Users/Alfred/Documents/my games/Fallout3/FALLOUT.INI",
+		"/C/Users/Alfred/Downloads/Bandisoft.Bandicam.v1.9.0.397.Multilanguage.Incl.Keymaker-MAZE/maze.nfo",
+		"/C/Users/Alfred/SkyDrive/Dokumentumok/Birdvision/birdvision/app.js",
+		"/D/Programok/ADOBE.CREATIVE.SUITE.6.0.MASTER.COLLECTION.LS16.ESD-ISO/nfo.nfo",
+		"/C/Users/Alfred/Documents/Thebirdcave MC/start.bat",
+		"/C/Users/Alfred/Documents/GitHub/cp-mongo-migration/site/app/Model/Datasource/MongoSource.php",
+		"/C/Users/Alfred/Documents/GitHub/cp-mongo-migration/site/app/Model/Sync.php",
+		"/C/Users/Alfred/Documents/GitHub/cp-mongo-migration/.gitignore",
+		"/C/Users/Alfred/Documents/GitHub/cp-mongo-migration/site/sftp-config.json",
+		"/C/Users/Alfred/Downloads/Batman.Arkham.Origins-RELOADED/reloaded.nfo",
+		"/C/Users/Alfred/Documents/my games/Fallout3/FalloutPrefs.ini",
+		"/C/Users/Alfred/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/CHANGELOG",
+		"/C/Users/Alfred/SkyDrive/Dokumentumok/a_win.pub",
+		"/C/Users/Alfred/Downloads/Pro.Evolution.Soccer.2014-RELOADED/reloaded.nfo",
+		"/C/Users/Alfred/Downloads/VMware.Workstation.v10.0.0.1295980.Incl.Keymaker-ZWT/zwt.nfo",
+		"/C/Users/Alfred/Desktop/1.5.2 Mod/1.5.2 Mod.json"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"=>",
+			"impression",
+			"spot_id",
+			"minutes",
+			"A",
+			"accept",
+			"1.5.2"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"project": "boilerplate.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 288.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

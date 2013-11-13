@@ -1,5 +1,5 @@
 {
-	"name": "NodeJS Boilerplate",
+	"name": "NodeJS-Boilerplate",
 	"version": "0.0.1",
 	"dependencies": {
 		"mongoose": "latest",

@@ -2,7 +2,7 @@ var mongoose    = require('./lib/database')(),
     express     = require('express'),
     jade        = require('jade'),
     app         = new express(),
-    config      = require('./config')
+    config      = require('./config'),
     routes      = require('./routes');
 
 app.configure(function() {

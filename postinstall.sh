@@ -1,8 +1,8 @@
 #!/bin/bash
-if [ -f bower.json ]
+if [ -f bower.json -a -f node_modules/bower/bin/bower ]
 then
 echo "Installing bower dependencies"
-bower install
+./node_modules/bower/bin/bower install
 else
 echo "bower.json not found, skipping bower install"
 fi

@@ -13,6 +13,6 @@
 		"bower": "latest"
 	},
 	"scripts": {
-		"postinstall": "if [ -f bower.json ]; then echo bower.json found, running bower install; bower install; else echo bower.json not found; fi;"
+		"postinstall": "sh postinstall.sh"
 	}
 }

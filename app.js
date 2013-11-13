@@ -18,7 +18,6 @@ app.configure(function() {
     app.use(express.static(__dirname + '/public'));
 });
 
-console.log(mongoose);
 routes(mongoose,app);
 
 app.listen(8080);

@@ -1,5 +1,5 @@
 {
-	"name": "",
+	"name": "NodeJS Boilerplate",
 	"dependencies": {
 		"bootstrap": "latest",
 		"jquery": "latest"

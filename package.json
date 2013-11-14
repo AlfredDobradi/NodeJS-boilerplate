@@ -1,6 +1,6 @@
 {
 	"name": "NodeJS-Boilerplate",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"dependencies": {
 		"mongoose": "latest",
 		"express": "latest",
@@ -10,6 +10,7 @@
 		"grunt": "latest",
 		"grunt-cli": "latest",
 		"grunt-contrib-jshint": "latest",
+        "grunt-contrib-uglify": "latest",
 		"bower": "latest"
 	},
 	"scripts": {

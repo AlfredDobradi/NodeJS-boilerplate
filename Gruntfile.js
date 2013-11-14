@@ -31,6 +31,9 @@ module.exports = function(grunt) {
             if ( grunt.file.exists('public/js/client.min.js') ) {
                 grunt.file.delete('public/js/client.min.js');
             }
+            if ( ! grunt.file.exists('public/build') ) {
+                grunt.file.mkdir('public/build');
+            }
         } else {
             console.log('Cleanup:After');
             if ( grunt.file.exists('public/build/js/client.min.js') ) {

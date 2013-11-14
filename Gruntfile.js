@@ -7,7 +7,7 @@ module.exports = function(grunt) {
         uglify: {
             options: {
                 report: 'min',
-                banner: '/*! <%= pkg.name %> v<%= pkg.version %> | <%= grunt.template.today("yyyy-mm-dd hh:MM:ss") %>*/'
+                banner: '/*! <%= pkg.name %> v<%= pkg.version %> | <%= grunt.template.today("yyyy-mm-dd hh:MM:ss") %> !*/'
             },
             dist: {
                 files: {
@@ -39,16 +39,17 @@ module.exports = function(grunt) {
             if ( grunt.file.exists('public/build/js/client.min.js') ) {
                 grunt.file.recurse('public/js',function(abspath,rootdir,subdir,filename) {
                     console.log('Deleted '+abspath);
-                    grunt.file.delete(abspath);
+                    //grunt.file.delete(abspath);
                 });
                 grunt.file.recurse('public/build/js',function(abspath,rootdir,subdir,filename) {
                     console.log('Copying '+filename);
                     grunt.file.copy(abspath,'public/js/'+filename);
                 });
-                grunt.file.delete('public/build');
+                console.log('Deleting /public/build');
+                //grunt.file.delete('public/build');
             }
         }
     });
-	grunt.registerTask('default',['jshint','uglify']);
+    grunt.registerTask('default',['jshint','cleanup:before','uglify','cleanup:after']);
     grunt.registerTask('build',['uglify']);
 };
